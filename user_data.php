@@ -17,7 +17,7 @@ if($file){
     fwrite($file, "Email :$email"."\n");
     fwrite($file, "Date :". $date. "\n");
     fwrite($file, "Gender :". $gender. "\n");
-    fwrite($file, "Gender :". $country. "\n");
+    fwrite($file, "Country :". $country. "\n");
 
     exit;
 }
